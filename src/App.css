@@ -40,10 +40,16 @@ h1 {
   padding: 15px;
   border-radius: 8px;
   background-color: #1a1a1a;
+}
+
+.status-row {
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.status-row:last-child {
+  margin-bottom: 0;
 }
 
 .status-item {
@@ -148,7 +154,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* --- Pie de Pagina --- */
 .last-updated {
   text-align: right;
   font-size: 12px;
