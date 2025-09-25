@@ -92,7 +92,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>Control Remoto Raspberry Pi</h1>
+        <h1>Control Remoto Raspberry Pi I2C</h1>
         <p className="subtitle">Jonathan David Franco Sosa 1190-22-515</p>
         <p className="subtitle">Mánleo Alexander Chacón Chacón 1190-22-7368</p>
       </header>
