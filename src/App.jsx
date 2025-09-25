@@ -143,7 +143,6 @@ function App() {
           </form>
         </div>
 
-        {/* Formulario para LCD 2 */}
         <div className="lcd-form-container">
           <h2>Enviar Mensaje a LCD 2 (20x4)</h2>
           <h3>20 caracteres por fila y 4 filas</h3>
